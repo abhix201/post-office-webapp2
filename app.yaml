@@ -1,0 +1,7 @@
+runtime: python27
+threadsafe: true #multiple threads to allow to run from multiple users
+
+
+handlers:
+- url: /
+  script: main.app
